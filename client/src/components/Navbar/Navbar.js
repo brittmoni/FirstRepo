@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import './Navbar.css';
 
 function Navbar() {
   return (
     <div>
       <ul>
-        <li>About</li>
-        <li>How to Help</li>
-        <li>Volunteer Opportunities</li>
-        <li>Contact</li>
+        <li><a href='#'>About</a></li>
+        <li><a href='#'>How to Help</a></li>
+        <li><a href='#'>Volunteer Opportunities</a></li>
+        <li><a href='#'>Contact</a></li>
       </ul>
     </div>
   )
