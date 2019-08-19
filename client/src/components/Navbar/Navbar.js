@@ -9,10 +9,10 @@ function Navbar() {
   return (
     <div>
       <ul>
-        <li><a href={About}>About</a></li>
-        <li><a href={Help}>How to Help</a></li>
-        <li><a href={Volunteer}>Volunteer Opportunities</a></li>
-        <li><a href={Contact}>Contact</a></li>
+        <li><a href='/about'>About</a></li>
+        <li><a href='help'>How to Help</a></li>
+        <li><a href='/volunteer'>Volunteer Opportunities</a></li>
+        <li><a href='/contact'>Contact</a></li>
       </ul>
     </div>
   )
