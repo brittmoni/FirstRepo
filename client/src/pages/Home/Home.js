@@ -8,6 +8,7 @@ class Home extends Component {
       <div>
         <Navbar />
         <h1>Join the Fight against Human Trafficking</h1>
+        <img src={require('../../Images/Stop-Human-Trafficking.jpg')} />
       </div>
     )
   }
